@@ -1,0 +1,45 @@
+html,body{
+    margin: 0%;
+}
+a {
+    color: black;
+}
+
+nav a {
+    margin: 5px;
+}
+nav img {
+    width: 200px;
+    margin: 10px;
+}
+
+nav {
+    display: block;
+    width: 250px;
+    border: 2px solid black;
+    padding-bottom: 200px;
+}
+
+input {
+    margin: 10px;
+    border-radius: 15px;
+}
+.contenu {
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 40px;
+    gap: 10px;
+}
+.contenu a {
+    margin-top: 80px;
+    margin-right: -990px;
+    margin-bottom: 30px;
+    text-align: right;
+}
